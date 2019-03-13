@@ -1,0 +1,8 @@
+last_30_days
+last_60_days
+last_90_days
+no_of_orders
+product_amount
+no_of_payments
+payment_amount
+churn_flag
