@@ -1,0 +1,40 @@
+[
+  {
+    "args": [],
+    "author": "1020",
+    "dateCreated": 1552454135,
+    "displayName": "TelcoChurnmodel-1552454120219",
+    "env": [],
+    "fileName": "TelcoChurnmodel-batch-scoring-1552454120219.py",
+    "jobId": "87e81562cb86ad80",
+    "jobName": "telcochurnmodel-1552454120219",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/TelcoChurnmodel-batch-scoring-1552454120219.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Batch scoring"
+  },
+  {
+    "args": [],
+    "author": "1020",
+    "dateCreated": 1552454214,
+    "displayName": "TelcoChurnmodel-1552454194973",
+    "env": [],
+    "fileName": "TelcoChurnmodel-model-evaluation-1552454194973.py",
+    "jobId": "b2b18a41b101c3bf",
+    "jobName": "telcochurnmodel-1552454194973",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/TelcoChurnmodel-model-evaluation-1552454194973.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Model evaluation"
+  }
+]
