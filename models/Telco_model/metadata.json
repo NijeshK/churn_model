@@ -1,0 +1,61 @@
+{
+    "algorithm": "Pipeline",
+    "algorithmType": "Classification",
+    "author": "1020",
+    "createdAt": 1552469027589,
+    "features": [
+        {
+            "name": "last_30_days",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "last_60_days",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "last_90_days",
+            "sample": 0.0,
+            "type": "float"
+        },
+        {
+            "name": "no_of_orders",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "product_amount",
+            "sample": 64.99,
+            "type": "float"
+        },
+        {
+            "name": "no_of_payments",
+            "sample": 1.0,
+            "type": "float"
+        },
+        {
+            "name": "payment_amount",
+            "sample": 302.4,
+            "type": "float"
+        }
+    ],
+    "id": 1552469027589,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "churn_flag",
+            "type": "int"
+        }
+    ],
+    "latestModelVersion": 1,
+    "learningType": "Supervised",
+    "name": "Telco_model",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python35",
+    "serialization": "joblib",
+    "source": "",
+    "type": "scikit-learn-0.19"
+}
